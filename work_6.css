@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+button{
+    width: 110px;
+    height: 46px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+p{
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: left;
+}
+
+#p1{
+    margin: 60px;
+    font-family: 'Courgette', cursive;
+}
+
+#c1{
+    text-align: center;
+    background-image: url(./Images/burger-image.jpeg);
+    height: 400px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.a1{
+    position: absolute;
+    left: 1222px;
+    top: 15px;
+}
+
+.a2{
+    position: absolute;
+    right: 1318px;
+    top: 303px;
+}
+
+.parent{
+    padding: 18px;
+    position: relative;
+    left: 48px;
+    top: 38px;
+}
+
+.c{
+    height: 400px;
+    width: 115%;
+    position: absolute;
+    padding: 150px;
+    background-size: 18% 223px;
+    background-repeat: no-repeat;
+}
+
+.c2{
+    background-image: url(./Images/burger-veg-image.jpg);
+    left: 50px;
+    background-size: 18% 223px;
+}
+
+.c3{
+    background-image: url(./Images/burger-orderonline.webp);
+    left: 500px;
+    background-size: 18% 223px;  
+}
+
+.c4{
+    background-image: url(./Images/burger-cake.jpg);
+    left: 952px;
+    background-size: 18% 223px; 
+}
+
+#p2{
+    height: 100px;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: left;
+    background-color: darkgrey;
+}
