@@ -11,6 +11,10 @@ a {
     margin-left: 30px;
 }
 
+i{
+    margin-left: 30px;
+}
+
 
 button {
     width: 110px;
@@ -22,7 +26,7 @@ button {
 
 p {
     color: white;
-    font-family: cursive;
+    font-family: 'Courgette', cursive;
     font-size: x-large;
     text-align: left;
 }
@@ -30,6 +34,10 @@ p {
 #p1 {
     margin: 60px;
     font-family: 'Courgette', cursive;
+}
+
+.heading{
+    font-size: xx-large;
 }
 
 #c1 {
@@ -41,18 +49,10 @@ p {
     position: relative;
 }
 
-.a1 {
-    float: right;
-    margin-right: 100px;
-    margin-top: -20px;
-}
-
 .a2 {
     float: left;
     margin-left: 50px;
 }
-
-
 
 .col-1 {
     background-image: url(./Images/burger-veg-image.jpg);
@@ -75,6 +75,8 @@ p {
     filter: brightness(80%);
 }
 
+
+
 .row {
     display: flex;
     align-items: center;
@@ -89,21 +91,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-/* .row {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-} */
-
 h4 {
     text-align: center;
     font-size: xx-large;
@@ -112,7 +99,7 @@ h4 {
 
 .blur {
     white-space: inherit;
-    text-align: center
+    text-align: center;
 }
 
 .menu {
@@ -123,7 +110,7 @@ h4 {
     background-color: white;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: -1px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
